@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Calibri, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #FFF8DC;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+input{
+	margin: 10px 0;
+	padding: 5px;
+	border: 2px solid #C0C0C0;
+	outline: none;
+	border-radius: 5px;
+}
+
+button{
+	height: 35px;
+	background: #C0C0C0;
+	cursor: pointer;
+	border: unset;
+	border-radius: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	height: 35px;
+}
+a.a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	height: 35px;
+	line-height: 2.5;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+button:hover{
+	background: #A9A9A9;
+}
+input:hover, textarea:hover{
+	background: #D3D3D3;
+}
+
+textarea{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	outline: none;
+	border: 2px solid #A9A9A9;
+	border-radius: 5px;
+	resize: vertical;
+}
+
+a.for{
+	margin: 10px;
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+a.for:hover{
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}
+
+p.msg{
+	text-align: center;
+	color: rgb(255, 0, 0);
+	margin-bottom: 3px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+p.complete{
+	text-align: center;
+	color: rgb(0, 128, 0);
+	margin-bottom: 3px;
+	padding: 3px;
+	font-weight: bold;
+}
+
+p.auth{
+	font-size: 40px;
+}
+
+a.exit{
+	color: rgb(0, 0, 255);
+}
+
+a.exit:hover{
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+}
+.profile{
+	max-width: 150px; 
+	text-align: center; 
+	margin-top: 15px;"
+}
+
+#pass, #pass_2{
+	margin-bottom: 0;
+}
+.show, .show_2{
+	margin-bottom: 15px;
+}
+.password-checkbox{
+	margin-right: 5px;
+}
+.password-checkbox_2{
+	margin-right: 5px;
+}
+
+
